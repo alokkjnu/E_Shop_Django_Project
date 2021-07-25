@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d639dd41-2194-4ead-9f64-9b2e684bbc20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cart/context_processors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/migrations/0002_rename_orders_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/migrations/0003_order_mob.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/migrations/0004_rename_mob_order_contact_no.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/templates/orders/order/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/templates/orders/order/created.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Noe_Eshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Noe_Eshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Noe_Eshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Noe_Eshop/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart/templates/cart/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -115,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627145204496</updated>
-      <workItem from="1627145210129" duration="22146000" />
+      <workItem from="1627145210129" duration="30051000" />
     </task>
     <servers />
   </component>

@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'shop/base.html' %}
+{% block title %}
+    Thank You
+{% endblock %}
+{% block content %}
+    <h1> Thank You</h1>
+    <p>Your order has been successfully completed. Your order number is <strong>{{ order.id }}</strong></p>
+{% endblock %}
