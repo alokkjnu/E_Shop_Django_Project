@@ -16,8 +16,6 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_DIR = BASE_DIR / 'templates'
 
-
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
@@ -28,7 +26,6 @@ SECRET_KEY = 'django-insecure-&%1^kzw&nt&mm-ihvl_3gge9&kbzg+45s)fj-69e&vpp44kn1d
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -44,6 +41,7 @@ INSTALLED_APPS = [
     'orders',
     'paypal.standard.ipn',
     'payment',
+    'coupons',
 ]
 
 MIDDLEWARE = [
@@ -65,7 +63,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [TEMPLATE_DIR, ],
-        #'DIRS': [os.path.join(BASE_DIR, 'templates'),]
+        # 'DIRS': [os.path.join(BASE_DIR, 'templates'),]
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -81,7 +79,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Noe_Eshop.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
@@ -91,7 +88,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -111,7 +107,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
@@ -125,7 +120,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 MEDIA_URL = '/media/'
@@ -136,7 +130,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 # Session Settings
 CART_SESSION_ID = 'cart'
-
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
