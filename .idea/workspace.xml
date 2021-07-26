@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d639dd41-2194-4ead-9f64-9b2e684bbc20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/orders/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/templates/orders/order/pdf.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/templates/cart/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Noe_Eshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Noe_Eshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Noe_Eshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Noe_Eshop/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/templates/admin/orders/order/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders/templates/admin/orders/order/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/templates/orders/order/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders/templates/orders/order/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/templates/shop/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/templates/shop/product/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/product/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/templates/shop/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/product/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -135,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627145204496</updated>
       <workItem from="1627145210129" duration="33647000" />
-      <workItem from="1627239151450" duration="21255000" />
+      <workItem from="1627239151450" duration="26608000" />
     </task>
     <servers />
   </component>
