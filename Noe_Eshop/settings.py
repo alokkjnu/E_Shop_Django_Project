@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'shop',
     'cart',
     'orders',
-    'paytm',
+    'paypal.standard.ipn',
+    'payment',
 ]
 
 MIDDLEWARE = [
@@ -56,12 +57,14 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'Noe_Eshop.urls'
 
+PAYPAL_RECEIVER_EMAIL = 'alokmaurya.cse@gmail.com'
+PAYPAL_TEST = True
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATE_DIR, ]
+        'DIRS': [TEMPLATE_DIR, ],
         #'DIRS': [os.path.join(BASE_DIR, 'templates'),]
-        ,
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
