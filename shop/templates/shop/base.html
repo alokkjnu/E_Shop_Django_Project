@@ -18,7 +18,7 @@
                     Your cart:
                     <a href="{% url "cart:cart_detail" %}">
                         {{ total_items }} item{{ total_items|pluralize }},
-                        Rs.{{ cart.get_total_price }}
+                        Rs. {{ cart.get_total_price }}
                     </a>
                     {% else %}
                         Your cart is empty

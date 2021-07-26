@@ -10,11 +10,11 @@
             {% for item in cart %}
                 <li>
                     {{ item.quantity }} x {{ item.product.name }}
-                    <span>Rs.{{ item.total_price }}</span>
+                    <span>Rs. {{ item.total_price }}</span>
                 </li>
             {% endfor %}
         </ul>
-        <p>Total : Rs.{{ cart.get_total_price }}</p>
+        <p>Total : Rs. {{ cart.get_total_price }}</p>
     </div>
     <form action="." method="post" class="order-form">
         {{ form.as_p }}

@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d639dd41-2194-4ead-9f64-9b2e684bbc20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/orders/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/static/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Noe_Eshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Noe_Eshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/templates/cart/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/templates/admin/orders/order/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders/templates/admin/orders/order/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/templates/orders/order/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders/templates/orders/order/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/product/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/product/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/product/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +34,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,7 +50,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/orders" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\VS DEV\Noe_EShop\orders" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\VS DEV\Noe_EShop\shop\static\css" />
+      <recent name="F:\VS DEV\Noe_EShop\shop\static" />
+      <recent name="F:\VS DEV\Noe_EShop\shop\templates\shop" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -117,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627145204496</updated>
       <workItem from="1627145210129" duration="33647000" />
-      <workItem from="1627239151450" duration="19972000" />
+      <workItem from="1627239151450" duration="21255000" />
     </task>
     <servers />
   </component>
