@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'shop',
     'cart',
     'orders',
+    'paytm',
 ]
 
 MIDDLEWARE = [
