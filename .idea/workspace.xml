@@ -45,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/orders" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -128,7 +128,14 @@
       <option name="presentableId" value="Default" />
       <updated>1627145204496</updated>
       <workItem from="1627145210129" duration="33647000" />
-      <workItem from="1627239151450" duration="37364000" />
+      <workItem from="1627239151450" duration="38022000" />
+      <workItem from="1627398855119" duration="97000" />
+      <workItem from="1627472578991" duration="1602000" />
+      <workItem from="1627642665103" duration="1445000" />
+      <workItem from="1627971991276" duration="1307000" />
+      <workItem from="1628138065704" duration="16404000" />
+      <workItem from="1628230609793" duration="3115000" />
+      <workItem from="1628513811160" duration="526000" />
     </task>
     <servers />
   </component>
